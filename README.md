@@ -16,7 +16,7 @@ See the file `LICENSE` for details.
 
 ## Contents
 * `Atomic Structures`:
-This directory contains the atomic structures of main 2D ices in LAMMPS data format
+This directory contains the atomic structures of main 2D ices in LAMMPS data format.
 
 * `MLP_N2P2`:  
 Machine learning potential model used in PIMD simulations to produce the results in this work.
