@@ -5,7 +5,7 @@ This repository contains supplementary data supporting results of the paper:
 
 "Rich proton dynamics and phase behaviours of nanoconfined ices"
 
-Jian Jiang, Yurui Gao, Lei Li, Yuan Liu, Weiduo Zhu, Chongqin Zhu, Joseph S. Francisco8, Xiao Cheng Zeng
+Jian Jiang, Yurui Gao, Lei Li, Yuan Liu, Weiduo Zhu, Chongqin Zhu, Joseph S. Francisco, Xiao Cheng Zeng
 
 ## License
 Licensed under the Apache License, Version 2.0 (the "License");
