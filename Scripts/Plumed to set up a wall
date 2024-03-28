@@ -1,1 +1,14 @@
 # This script sets up a virtual atom at a specified position, computes distances between oxygen atoms and the virtual atom, and sets up a wall using LJ parameters. By Jian Jiang
+
+# Create a virtual atom located at the position of the wall.
+# Example: A virtual atom is placed at z=6.
+top: FIXEDATOM AT=0,0,0.6
+
+# Compute the distances between oxygen atoms and the virtual atom.
+# GroupA: Index of Oxygen atoms
+# GroupB: Virtual atom (top)
+ZDISTANCES GROUPA=$(Index of Oxygen atoms) GROUPB=top NOPBC LABEL=d1
+
+# Set up the wall using LJ parameters.
+UWALLS DATA=d1 AT=0.0 KAPPA=$(LJ Parameters)     EXP=-9 EPS=$(LJ Parameters) OFFSET=0 LABEL=UWall9
+UWALLS DATA=d1 AT=0.0 KAPPA=$(LJ Parameters)     EXP=-3 EPS=$(LJ Parameters) OFFSET=0 LABEL=Uwall3
