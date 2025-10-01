@@ -22,6 +22,6 @@ This directory contains the atomic structures of main 2D ices in LAMMPS data for
 * `MLP`:  
 Machine learning potential model used in PIMD simulations to produce the results in work#1.
 
-* `MLP_twist`:  
+* `MLP_TBI`:  
 Machine learning potential model used in PIMD simulations to produce the results in work#2.
 
