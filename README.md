@@ -1,7 +1,7 @@
 # MLP-for-2D-ices
 
 
-This repository contains supplementary data supporting results of the paper:
+This repository contains supplementary data supporting results of these papers:
 
 1. "Rich proton dynamics and phase behaviours of nanoconfined ices" (***Nat. Phys.*** **2024**, 20, 456–464)
 - Jian Jiang, Yurui Gao, Lei Li, Yuan Liu, Weiduo Zhu, Chongqin Zhu, Joseph S. Francisco & Xiao Cheng Zeng
@@ -23,5 +23,5 @@ This directory contains the atomic structures of main 2D ices in LAMMPS data for
 Machine learning potential model used in PIMD simulations to produce the results in work#1.
 
 * `MLP_TBI`:  
-Machine learning potential model used in PIMD simulations to produce the results in work#2.
+Machine learning potential model used in MD simulations to produce the results in work#2.
 
